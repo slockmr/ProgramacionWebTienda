@@ -1,0 +1,75 @@
+body {
+    font-family: 'Lora', serif;
+    background-color: #C01B0B;
+    
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #255008;
+    color: #C01B0B;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Estilos de títulos */
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: #084950;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilos de párrafos y texto */
+main p, main ul, main ol {
+    font-family: 'Open Sans', sans-serif;
+    color: #084950;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #255008;
+    color: #C01B0B;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos de botones */
+.btn {
+    background-color: #255008;
+    color: #C01B0B;
+}
+
+.btn:hover {
+    background-color: #e44d26;
+}
+
+/* Estilos de imágenes */
+/* Si es necesario, agrega estilos de imágenes aquí */
+
+/* Estilos del menú de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C01B0B;
+}

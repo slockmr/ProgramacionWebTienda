@@ -1,0 +1,81 @@
+/* Estilos de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C01B0B;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C01B0B;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 20px;
+}
+
+/* Estilos de botones */
+.btn {
+    background-color: #255008;
+    color: #C01B0B;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos de imágenes */
+.product-image img {
+    max-width: 100%;
+}
+
+/* Estilos de tarjetas de productos */
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card .product-info {
+    padding: 15px;
+}
+
+/* Estilos para botón en la tarjeta de producto */
+.product-card .btn {
+    background-color: #255008;
+    color: #C01B0B;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card .btn:hover {
+    background-color: #084950;
+    color: #fff;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #255008;
+    color: #C01B0B;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,123 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Lora', serif;
+    
+    color: #084950;
+}
+
+/* Estilos de títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pacifico';
+    color: #084950; /* Cambio de color para los títulos */
+    /* Agregar estilos adicionales si es necesario */
+}
+
+/* Estilos de párrafos y texto */
+p, ul, ol {
+    font-family: 'Open Sans', sans-serif;
+    color: #084950; /* Cambio de color para el texto */
+    /* Agregar estilos adicionales si es necesario */
+}
+
+/* Estilos de encabezado */
+header {
+    
+    color: #C01B0B;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Estilos de navegación */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C01B0B;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 20px;
+}
+
+/* Estilos de botones */
+.btn {
+    background-color: #255008;
+    color: #C01B0B;
+    /* Agregar estilos adicionales si es necesario */
+}
+
+/* Estilos de imágenes */
+/* Agregar estilos de imágenes según sea necesario */
+
+/* Estilos de tarjetas de productos */
+.product-card {
+
+    background-color: #fff;
+    border-color: #C01B0B;
+    border: solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card .product-info {
+    padding: 20px;
+}
+
+.product-card .title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-card .price {
+    font-size: 16px;
+    color: #e44d26;
+}
+
+.product-card .btn {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .btn:hover {
+    background-color: #333;
+}
+
+
+
+
+
+/* Estilos de pie de página */
+footer {
+    background-color: #255008;
+    color: #C01B0B;
+    text-align: center;
+    padding: 10px;
+}
